@@ -1,0 +1,44 @@
+<html>
+<title>Kosinus - велосипедист!</title>
+<style>
+html,body {margin:0;padding:0;height:100%;}
+#kos {position:absolute;top:50%;left:50%;width:500px;height:451px;margin:-225px 0 0 -375px;}
+#kos i {position:absolute;display:block;}
+#kos i.r-wheel {background:url(rear-wheel.png) no-repeat;width:91px;height:91px;top:306px;left:197px;}
+#kos i.f-wheel {background:url(front-wheel.png) no-repeat;width:98px;height:99px;top:309px;left:342px;}
+#kos i {
+	-moz-animation:spin 1s infinite linear;
+	-webkit-animation:spin 1s infinite linear;}
+    
+@-moz-keyframes spin {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+</style>
+</head>
+<body>
+<div id="kos">
+    <img src="kos-bg.jpg">
+    <i class="r-wheel"></i>
+    <i class="f-wheel"></i>
+
+
+<!--
+playback timings (ms):
+  captures_list: 994.81
+  RedisCDXSource: 8.327
+  esindex: 0.024
+  exclusion.robots: 0.498
+  PetaboxLoader3.datanode: 278.591 (4)
+  CDXLines.iter: 17.885 (3)
+  LoadShardBlock: 953.025 (3)
+  PetaboxLoader3.resolve: 1583.407 (2)
+  exclusion.robots.policy: 0.48
+  load_resource: 929.154
+--></div>
+</body>
+</html>
